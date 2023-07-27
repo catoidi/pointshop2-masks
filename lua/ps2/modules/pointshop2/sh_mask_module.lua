@@ -9,9 +9,9 @@ MODULE.Author = "Phoenixf129"
 --creator is the name of the derma control that is used to create new items from the blueprint
 MODULE.Blueprints = {
 	{
-		label = "Mask",
+		label = "PNG Hats",
 		base = "base_mask",
-		icon = "pointshop2/masks.png",
+		icon = "pointshop2/fedora.png",
 		creator = "DMaskCreator"
 	}
 }

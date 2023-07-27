@@ -50,7 +50,7 @@ function ITEM:AttachMask( ply )
 		
 		supEngLight( true )
 			setMat( matfix[self.material] )
-			local pos = pos - ang:Forward() * -2 - ang:Right() * 5 + ang:Up() * 7
+			local pos = pos + Vector(0, 0, 20)
 			ang:RotateAroundAxis(ang:Forward(), 90)
 			local alpha = 255 
 			if distSqr > 1500000 then
